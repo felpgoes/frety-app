@@ -1,0 +1,29 @@
+<ion-content color="frety" class="content">
+  <ion-title class="title-field">
+    Frety
+  </ion-title>
+  <form [formGroup]="loginForm">
+
+    <div class="form-field">
+      <ion-label>Email</ion-label>
+      <ion-item>
+        <ion-input type="text" placeholder="Digite seu email" formControlName="email"></ion-input>
+        <span class="icon mail-svg"></span>
+      </ion-item>
+    </div>
+
+    <div class="form-field">
+      <ion-label>Senha</ion-label>
+      <ion-item>
+        <ion-input type="password" placeholder="Digite sua senha" formControlName="password"></ion-input>
+        <span class="icon key-svg"></span>
+      </ion-item>
+    </div>
+  </form>
+
+  <ion-button slot="center" color="coal" (click)="onSubmit()">Login</ion-button>
+
+  <div class="signup">
+    Ainda não tem conta? <span>Cadastre-se</span>
+  </div>
+</ion-content>

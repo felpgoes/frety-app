@@ -1,0 +1,64 @@
+@import "../../theme/variables.scss";
+
+.content{
+    background: $frety-orange;
+
+    .title-field{
+        width: 100%;
+        height: 30vh;
+        font-size: 3rem;
+        color: $frety-coal;
+        text-align: center;
+    }
+    .signup{
+        text-align: center;
+        color: $frety-coal;
+        font-size: 15px;
+    }
+    ion-button{
+        background: $frety-coal;
+        width: 80%;
+        border: 4px solid $frety-coal;
+        border-radius: 30px;
+        height: 40px;
+    }
+    .form-field{
+        color: $frety-coal;
+        font-size: 20px;
+        padding: 20px;
+        ion-label{
+            padding-left: 20px
+        }
+        ion-item{
+            margin: 20px 0;
+            border: 1px solid $frety-coal;
+            border-radius: 15px;
+            .icon{
+                background: $frety-coal;
+                mask-size: cover;
+                height: 35px;
+                width: 35px;
+                &.key-svg{
+                    mask: url(../../assets/_ionicons_svg_md-key.svg);
+                }
+                &.mail-svg{
+                    mask: url(../../assets/_ionicons_svg_md-mail.svg);
+                }
+                &.user-svg{
+                    mask: url(../../assets/_ionicons_svg_md-contact.svg);
+                }
+                &.eye-svg{
+                    mask: url(../../assets/_ionicons_svg_md-eye.svg);
+                }
+                &.eye-off-svg{
+                    mask: url(../../assets/_ionicons_svg_md-eye-off.svg);
+                }
+            }
+        }
+    }
+}
+// .label{
+//     background: $frety-orange;
+//     color: $frety-coal;
+//     height: 100%;
+// }
