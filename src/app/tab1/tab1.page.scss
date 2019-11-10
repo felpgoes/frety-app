@@ -1,4 +1,16 @@
+@import "../../theme/variables.scss";
+
 .welcome-card img {
   max-height: 35vh;
   overflow: hidden;
 }
+
+.app-title{
+  text-align: center;
+  font-size: 25px;
+  color: $frety-coal;
+}
+
+// {
+//   background: $frety-orange !important;
+// }
